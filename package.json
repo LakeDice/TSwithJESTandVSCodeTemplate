@@ -1,0 +1,27 @@
+{
+  "name": "tsjest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "build": "tsc",
+    "app": "node dist/app",
+    "start": "run-s build app",
+    "dev": "ts-node src/app",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.10.0",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "npm-run-all": "^4.1.5",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
